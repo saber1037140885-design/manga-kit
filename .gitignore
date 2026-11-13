@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.py[cod]
+_demo_page/
+out/
+page/
+node_modules/
+*.log

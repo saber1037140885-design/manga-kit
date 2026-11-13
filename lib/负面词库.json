@@ -1,0 +1,95 @@
+{
+  "$usage": "用法：--neg-preset base,solo 或 --neg-preset blight；新增词条往 groups 里加，不用改脚本；新增组合往 presets 里加。--neg 里写的内容会拼在后面。",
+  "$updated": "2026-11-09",
+
+  "groups": {
+    "quality": [
+      "lowres", "worst quality", "low quality", "normal quality",
+      "jpeg artifacts", "watermark", "text", "signature", "censored", "blurry"
+    ],
+
+    "anatomy": [
+      "bad anatomy", "bad proportions", "bad hands", "bad face",
+      "extra digits", "missing fingers", "mutated hands", "fused fingers", "extra limbs",
+      "deformed body", "long neck", "bad feet"
+    ],
+
+    "face": [
+      "teeth showing", "open mouth with teeth", "drooling", "saliva on face",
+      "crossed eyes", "lazy eye", "asymmetrical eyes", "wall-eyed",
+      "distorted face", "ugly face"
+    ],
+
+    "duplicate": [
+      "two heads", "duplicate face", "extra head", "clone", "conjoined"
+    ],
+
+    "style": [
+      "neon", "magenta skin", "blue glow", "oversaturated", "flat color",
+      "cel shading", "lineart", "sketch", "3d", "photorealistic",
+      "motion blur", "ghosting"
+    ],
+
+    "lightWarm": [
+      "warm light", "orange light", "lamp", "candle", "night", "dark background"
+    ],
+
+    "lightThick": [
+      "warm yellow tint", "oily skin", "shiny plastic skin"
+    ],
+
+    "emptyBg": [
+      "plain white background"
+    ],
+
+    "solo": [
+      "2girls", "2boys", "multiple girls", "multiple boys"
+    ],
+
+    "duo": [
+      "solo", "1girl", "merged bodies", "hugging", "embracing",
+      "touching each other", "overlapping bodies"
+    ],
+
+    "mirror": [
+      "two heads", "duplicate face"
+    ],
+
+    "character": [
+      "long hair", "very long hair", "hair past shoulders",
+      "blue hair", "purple hair", "silver hair", "twin tails"
+    ],
+
+    "cloth": [
+      "bodysuit", "leotard", "one-piece swimsuit", "armor"
+    ],
+
+    "skinShiny": [
+      "oiled skin", "shiny plastic skin"
+    ],
+
+    "sceneWood": [
+      "wooden furniture", "bed frame", "picture frame", "painting",
+      "wooden floor", "tan wall", "beige wall",
+      "lampshade", "table lamp", "dark wood"
+    ]
+  },
+
+  "presets": {
+    "base":      ["quality", "anatomy", "face", "style"],
+
+    "solo":      ["quality", "anatomy", "face", "duplicate", "style", "solo"],
+
+    "himecut":   ["quality", "anatomy", "face", "duplicate", "style", "solo", "character", "cloth"],
+
+    "blight":    ["quality", "anatomy", "face", "duplicate", "style", "solo", "character", "cloth", "lightWarm", "emptyBg", "skinShiny", "sceneWood"],
+
+    "blightDry": ["quality", "anatomy", "face", "duplicate", "style", "solo", "character", "cloth", "lightWarm", "emptyBg", "skinShiny", "sceneWood"],
+
+    "mirror":    ["quality", "anatomy", "face", "style", "character", "cloth", "mirror"],
+
+    "duo":       ["quality", "anatomy", "face", "duplicate", "style", "duo", "character", "cloth"],
+
+    "thick":     ["quality", "anatomy", "face", "duplicate", "style", "solo", "character", "cloth", "lightThick", "sceneWood"]
+  }
+}
