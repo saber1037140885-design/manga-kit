@@ -52,7 +52,7 @@ manga-kit/
 
 MIT 许可，工具随便用，词库改了不用跟我说。
 
-**[仓库地址]**
+https://github.com/saber1037140885-design/manga-kit
 
 ---
 
@@ -82,13 +82,13 @@ MIT 许可，工具随便用，词库改了不用跟我说。
 
 全部实测数据在 `docs/反爬笔记.md`。
 
-**[链接]**
+https://github.com/saber1037140885-design/manga-kit
 
 ---
 
 ## 版三：一句话（推 / 微博 / 群公告）
 
-写了个中文 AI 漫画全链路工具包：反查（免 key）+ 批量出图 + 排版成品页。附今天撞了五小时的全部踩坑记录——SauceNAO 免 key 的真相、pixiv 的 CF 只守页面不守接口、ascii2d 骗不过 JS 挑战、60% 相似度阈值。MIT。 **[链接]**
+写了个中文 AI 漫画全链路工具包：反查（免 key）+ 批量出图 + 排版成品页。附今天撞了五小时的全部踩坑记录——SauceNAO 免 key 的真相、pixiv 的 CF 只守页面不守接口、ascii2d 骗不过 JS 挑战、60% 相似度阈值。MIT。 https://github.com/saber1037140885-design/manga-kit
 
 ---
 
@@ -102,8 +102,8 @@ MIT 许可，工具随便用，词库改了不用跟我说。
 
 ## 发之前的三件事
 
-1. **仓库要先建**：GitHub 上新建空仓库，`git init && git add . && git commit && git push`
-2. **README 里的 `[仓库地址]` 换成真的**
+1. ~~仓库要先建~~ 已建好并推送
+2. ~~README 里的仓库地址换成真的~~ 已完成
 3. **确认 LICENSE 名字**：现在是 `manga-kit contributors`，要换成你自己就改
 
 ## 发之后的检查点
